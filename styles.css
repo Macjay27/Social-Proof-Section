@@ -13,12 +13,19 @@
   background-color:hsl(300, 24%, 96%);
   padding: .8em;
   margin: 1em;
-  width: 90%;
+  width: 78%;
 }
-
 
 .accordion{
   padding-left: 15%;
+}
+
+#ac-2{
+  margin-left: 12%;
+}
+
+#ac-3{
+  margin-left: 20%;
 }
 
 body{
@@ -38,7 +45,7 @@ body{
 .card{
   background-color: hsl(300, 43%, 22%);
   border-radius: 10px;
-  padding: 2%;
+  padding: 3%;
 }
 
 .card-text{
@@ -49,7 +56,7 @@ body{
 }
 
 .container-fluid{
-  padding-top: 8%;
+  padding-top: 5.5%;
   padding-left: 12%;
   padding-right: 12%;
 }
@@ -71,19 +78,34 @@ body{
   color: hsl(333, 80%, 67%);
 }
 
+.card{
+  height: 215px;
+}
+
 .cards{
-  padding-top: 6%;
+  padding-top: 4%;
+}
+
+div .text{
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 13px;
 }
 
 span{
   padding-right: 2em;
 }
 
-footer{
-  padding-top: 7%;
+.stars{
+  padding-left: 1.8em;
 }
 
 h1{
   color: hsl(300, 43%, 22%);
   font-weight: 700;
+}
+
+.main-text{
+  color:  hsl(303, 10%, 53%);
+  font-size: 13px;
 }
